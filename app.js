@@ -138,33 +138,7 @@ function animateCounters() {
 
 }
 
-const aboutSection =
-document.querySelector(".about");
 
-const observer =
-new IntersectionObserver(
-
-(entries) => {
-
-    entries.forEach(entry => {
-
-        if(entry.isIntersecting){
-
-            animateCounters();
-
-        }
-
-    });
-
-},
-
-{
-    threshold: 0.5
-}
-
-);
-
-observer.observe(aboutSection);
 
 // ================= SCROLL REVEAL =================
 
@@ -591,7 +565,7 @@ function(){
             "show"
         );
 
-    },9000);
+    },7000);
 
 });
 

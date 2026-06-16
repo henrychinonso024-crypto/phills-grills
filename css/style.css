@@ -2276,8 +2276,8 @@ ul {
   background: white;
 
   padding: 35px 25px;
-  border-left: 7px solid oklch(44.4% .177 26.899);
-  border-bottom: 4px solid oklch(44.4% .177 26.899);
+  border-left: 14px solid oklch(44.4% .177 26.899);
+  border-bottom: 5px solid oklch(44.4% .177 26.899);
 
   text-align: center;
 
@@ -2292,15 +2292,7 @@ ul {
 
 }
 
-.why-card:hover {
 
-  transform:
-    translateY(-10px);
-
-  box-shadow:
-    0 15px 40px rgba(230, 0, 0, .15);
-
-}
 
 .why-card img {
 

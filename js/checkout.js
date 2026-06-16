@@ -343,6 +343,6 @@ console.log(
         window.location.href =
             "thank-you.html";
 
-    }, 1000);
+    }, 10000);
 
 });
