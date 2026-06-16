@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Full Menu - Phills Grills</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <a href="cart.html" class="cart-icon">
+
+        <i class="fa-solid fa-cart-shopping"></i>
+
+        <span id="cart-count">
+
+            0
+
+        </span>
+
+    </a>
+
+    <div class="announcement-bar">
+
+        <div class="announcement-track">
+
+            <div class="announcement-slide active">
+
+                <span class="live-badge">
+
+                    LIVE
+
+                </span>
+
+                <i class="fa-solid fa-motorcycle"></i> Free Delivery On Orders Above ₦20,000
+
+            </div>
+
+            <div class="announcement-slide">
+
+                Buy 3 Shawarmas Get 1 Drink Free
+
+            </div>
+
+            <div class="announcement-slide">
+
+                <i class="fa-solid fa-pizza-slice"></i> Fresh Pizza,Burger and shawarma Available Daily
+
+            </div>
+
+            <div class="announcement-slide">
+
+                <i class="fa-solid fa-location-dot"></i> Now Serving All Areas In Nsukka
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <nav class="navbar">
+
+
+
+        PHILLS GRILLS
+
+        <ul class="nav-links">
+            <li><a href="index.html#categories">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="index.html#promo">Promo</a></li>
+        </ul>
+
+
+        <!-- <a href="cart.html" class="cart-icon"> -->
+
+        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+
+        <!-- <span id="cart-count"> -->
+        <!-- 0 -->
+        <!-- </span> -->
+
+        </a>
+
+
+
+        <!-- Hamburger -->
+
+        <div class="hamburger">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+
+    <div class="mobile-menu">
+
+
+        <a href="full-menu.html">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="index.html#categories">Home</a>
+        <li><a href="index.html#promo">Promo</a></li>
+
+        <a href="full-menu.html" class="mobile-order-btn">
+            Order Now
+        </a>
+
+    </div>
+
+
+
+    <!-- Header -->
+
+    <section class="full-menu-header">
+
+        <h1>
+
+
+
+
+
+           
+
+
+        </h1>
+
+        <p>
+
+            Browse all our delicious meals
+
+        </p>
+
+    </section>
+
+    <!-- Search -->
+
+    <div class="menu-search">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="text" id="search-input" placeholder="Search pizza, shawarma, drinks...">
+
+    </div>
+
+    <!-- Filters -->
+
+    <div class="menu-filters">
+
+        <button class="filter-btn active" data-category="all">
+
+            All
+
+        </button>
+
+        <button class="filter-btn" data-category="shawarma">
+
+            Shawarmas
+
+        </button>
+
+        <button class="filter-btn" data-category="pizza">
+
+            Pizzas
+
+        </button>
+
+        <button class="filter-btn" data-category="bbq">
+
+            BBQs
+
+        </button>
+
+        <button class="filter-btn" data-category="burger">
+
+            Burgers
+
+        </button>
+
+        <button class="filter-btn" data-category="drinks">
+
+            Drinks
+
+        </button>
+
+        <button class="filter-btn" data-category="indomie">
+
+            Indomie
+
+        </button>
+
+    </div>
+
+    <!-- Products -->
+
+    <div class="products-container" id="products-container">
+
+    </div>
+
+
+    <div class="product-modal" id="product-modal">
+
+        <div class="modal-content">
+
+            <span id="close-modal">
+
+                &times;
+
+            </span>
+
+            <img id="modal-image" src="">
+
+            <h2 id="modal-name"></h2>
+
+            <p id="modal-price"></p>
+
+            <p id="modal-description"></p>
+
+            <div class="modal-buttons">
+
+                <button id="modal-cart-btn" class="cart-btn">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    Add To Cart
+
+                </button>
+
+                <a id="modal-whatsapp-btn" href="#" target="_blank" class="whatsapp-btn">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    WhatsApp Order
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="toast"></div>
+
+     <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Brand -->
+
+            <div class="footer-col">
+
+                <h2>
+
+                    <div class="logo">
+
+                        <img src="images/logo.png" loading="lazy">
+                    </div>
+
+                </h2>
+
+                <p>
+
+                    Serving delicious Shawarma, Pizza,
+                    BBQ, Burgers and Drinks across Enugu.
+
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="footer-col">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="full-menu.html">Menu</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="footer-col">
+
+                <h3>Contact</h3>
+
+                <p>
+
+                    <i class="fa-solid fa-phone-volume"></i> 08100401518
+
+                </p>
+
+                <p>
+
+                    WhatsApp..08100401518
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-map-location-dot"></i> Nsukka,Enugu State
+
+                </p>
+
+            </div>
+
+            <!-- Opening Hours -->
+
+            <div class="footer-col">
+
+                <h3>Opening Hours</h3>
+
+                <p>Monday - Sunday</p>
+
+                <p><i class="fa-solid fa-clock"></i>8:00 AM - 10:00 PM</p>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Our Branches</h3>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Ogige bank
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Barracks
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Hilltop
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Obollo
+                </p>
+
+                <a href="#contact" class="branch-link">
+
+                    View All Locations →
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-socials">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://x.com" target="_blank" aria-label="Twitter/X">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+
+            <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Phills Grills. All Rights Reserved.
+
+            </p>
+
+            Developed with ❤️ by
+            <p>
+                <a href="https://wa.me/2349033035249" target="_blank">
+
+                    JECKO SPIRIT
+                    09033035249
+
+                </a>
+            </p>
+            <p>
+                <a href="https://wa.me/2349033035249" target="_blank">
+
+                    Nojecweb
+
+                </a>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/full-menu.js"></script>
+
+
+</body>
+
+</html>

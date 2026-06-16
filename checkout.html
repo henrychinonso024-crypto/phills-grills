@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout - Phills Grills</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body class="checkou-bobo">
+
+
+    
+    <h1 class="check-check">scroll up to complete your order</h1>
+
+    <div class="order-summary">
+
+        <h3>Your Order</h3>
+
+        <div id="checkout-items">
+
+        </div>
+
+        <div class="checkout-total">
+
+            <p id="delivery-fee-row">
+
+                Delivery Fee:
+                <span id="delivery-fee">
+                    ₦0
+                </span>
+
+            </p>
+
+            <h3>
+
+                Total:
+                <span id="checkout-total-price">
+                    ₦0
+                </span>
+
+            </h3>
+
+            <p class="pickup-note">
+                <strong>Note:</strong> Select <b>Pickup</b> when completing your order if you prefer self collection.
+
+
+        </div>
+
+    </div>
+
+
+    <section class="checkout-page">
+
+
+        <div class="checkout-container">
+
+            <h2>Complete Your Order</h2>
+
+
+
+            <form id="checkout-form">
+
+                <div class="input-group">
+
+                    <label>Full Name</label>
+
+                    <input type="text" id="customerName" required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Phone Number</label>
+
+                    <input type="tel" id="customerPhone" required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>WhatsApp Number</label>
+
+                    <input type="tel" id="customerWhatsapp" required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Order Type</label>
+
+                    <select id="orderType">
+
+                        <option>Delivery</option>
+
+                        <option>Pickup</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Select one of our branch you'd like your order to come from</label>
+
+                    <select id="branch">
+
+                        <option>obollo</option>
+
+                        <option>ogige bank</option>
+
+                        <option>Hilltop</option>
+
+                        <option>Barracks</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Delivery Address</label>
+
+                    <textarea id="address" rows="4"></textarea>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Additional Notes</label>
+
+                    <textarea id="notes" rows="4" placeholder="eg. make it hot"></textarea>
+
+                </div>
+
+                <button type="submit" class="place-order-btn">
+
+                    Place Order
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+     <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Brand -->
+
+            <div class="footer-col">
+
+                <h2>
+
+                    <div class="logo">
+
+                        <img src="images/logo.png" loading="lazy">
+                    </div>
+
+                </h2>
+
+                <p>
+
+                    Serving delicious Shawarma, Pizza,
+                    BBQ, Burgers and Drinks across Enugu.
+
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="footer-col">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="full-menu.html">Menu</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="footer-col">
+
+                <h3>Contact</h3>
+
+                <p>
+
+                    <i class="fa-solid fa-phone-volume"></i> 08100401518
+
+                </p>
+
+                <p>
+
+                    WhatsApp..08100401518
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-map-location-dot"></i> Nsukka,Enugu State
+
+                </p>
+
+            </div>
+
+            <!-- Opening Hours -->
+
+            <div class="footer-col">
+
+                <h3>Opening Hours</h3>
+
+                <p>Monday - Sunday</p>
+
+                <p><i class="fa-solid fa-clock"></i>8:00 AM - 10:00 PM</p>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Our Branches</h3>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Ogige bank
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Barracks
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Hilltop
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-map-location-dot"></i> Obollo
+                </p>
+
+                <a href="#contact" class="branch-link">
+
+                    View All Locations →
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-socials">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://x.com" target="_blank" aria-label="Twitter/X">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+
+            <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Phills Grills. All Rights Reserved.
+
+            </p>
+
+            Developed with ❤️ by
+            <p>
+                <a href="https://wa.me/2349033035249" target="_blank">
+
+                    JECKO SPIRIT
+                    09033035249
+
+                </a>
+            </p>
+            <p>
+                <a href="https://wa.me/2349033035249" target="_blank">
+
+                    Nojecweb
+
+                </a>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <a href="https://wa.me/2348100401518" target="_blank" class="floating-whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>Chat With Us</span>
+
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/checkout.js"></script>
+
+</body>
+
+</html>

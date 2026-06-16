@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phills Grills Admin</title>
+
+    <link rel="stylesheet" href="css/admin.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="admin-container">
+
+        <aside class="sidebar">
+
+            <h2>
+                Phills Admin
+            </h2>
+
+            <ul>
+
+                <li>
+                    <i class="fa-solid fa-box"></i>
+                    Products
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-tags"></i>
+                    Categories
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-bullhorn"></i>
+                    Promotions
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Orders
+                </li>
+                <button id="logoutBtn">
+
+                    Logout
+
+                </button>
+
+            </ul>
+
+        </aside>
+
+        <main class="admin-content">
+
+            <h1>
+                Add Product
+            </h1>
+
+            <form id="product-form">
+
+                <input type="text" placeholder="Product Name" id="productName" required>
+
+                <input type="number" placeholder="Price" id="productPrice" required>
+
+                <select id="productCategory">
+
+                    <option value="shawarma">
+                        Shawarma
+                    </option>
+
+                    <option value="pizza">
+                        Pizza
+                    </option>
+
+                    <option value="bbq">
+                        BBQ
+                    </option>
+
+                    <option value="burger">
+                        Burger
+                    </option>
+
+                    <option value="drinks">
+                        Drinks
+                    </option>
+
+                    <option value="indomie">
+                        Indomie
+                    </option>
+
+                </select>
+
+                <textarea id="productDescription" placeholder="Description">
+
+            </textarea>
+
+                <input type="text" id="productImage" placeholder="Image Path (e.g. images/pizza.png)" required>
+
+                <button type="submit">
+
+                    Add Product
+
+                </button>
+
+            </form>
+
+            <section class="manage-promotion">
+                <div class="promo-manager">
+
+                    <h2>
+
+                        Promotion Manager
+
+                    </h2>
+
+                    <input type="text" id="promoTitle" placeholder="Promo Title">
+
+                    <textarea id="promoText" placeholder="Promo Description">
+
+    </textarea>
+
+                    <button id="savePromo">
+
+                        Save Promotion
+
+                    </button>
+
+                </div>
+
+            </section>
+
+            <div id="products-list">
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <h2>
+
+        Customer Orders
+
+    </h2>
+
+    <div id="orders-list">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/admin.js"></script>
+
+</body>
+
+</html>
