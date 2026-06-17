@@ -544,7 +544,7 @@ ul {
 
   .hero {
 
-    flex-direction: column-reverse;
+    flex-direction: column;
 
     /* text-align: center; */
 
