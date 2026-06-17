@@ -67,7 +67,7 @@ ul {
 
   padding: 20px 8%;
 
-  background: white;
+  background: lavenderblush;
 
   box-shadow:
     0 2px 20px rgba(0, 0, 0, .05);
@@ -288,7 +288,7 @@ ul {
 
 .hero-text h1 {
 
-  font-size: 6rem;
+  font-size: 4rem;
 
   line-height: 1.1;
 
@@ -390,7 +390,7 @@ ul {
 }
 
 .animate-hero {
-    animation: heroZoomRight 1.5s ease-out forwards;
+    animation: heroZoomRight 2.5s ease-out forwards;
 }
 
 @keyframes heroZoomRight {
@@ -527,7 +527,7 @@ ul {
 
   .hero-text h1 {
 
-    font-size: 2.5rem;
+    font-size: 1rem;
   }
 
   .hero-image img {
@@ -559,7 +559,7 @@ ul {
 
   .hero-text h1 {
 
-    font-size: 0.5rem;
+    font-size: 1rem;
 
     line-height: 1.2;
     color: var(--primary-red);
@@ -4686,7 +4686,13 @@ body {
 .about-cta {
     text-align: center;
     padding: 30px;
-    background: #f9f9f9;
+    background: lavenderblush;
+
+}
+
+.about-cta h2{
+  font-size: 1.2rem;
+  color: var(--primary-red);
 }
 
 .about-cta .btn {
