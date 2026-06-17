@@ -29,7 +29,8 @@ const heroImages = [
     "images/hero-food.webp",
 
     "images/indomie.png",
-    "images/hero22.png"
+    "images/hero22.png",
+    "images/shawama2.png"
 
 ];
 

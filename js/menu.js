@@ -51,19 +51,25 @@ const products = {
             id: 4,
             name: "Chicken Shawarma",
             price: 3500,
-            image: "images/shawarma.png"
+            image: "images/shawama.png"
         },
         {
             id: 5,
             name: "Beef Shawarma",
             price: 4000,
-            image: "images/shawarma.png"
+            image: "images/shawama2.png"
         },
         {
             id: 6,
-            name: "Special Shawarma",
-            price: 5000,
-            image: "images/shawarma.png"
+            name: "Jumbo Shawarma",
+            price: 6000,
+            image: "images/jumbo.png"
+        },
+        {
+            id: 6,
+            name: "Double hot dog Shawarma",
+            price: 6000,
+            image: "images/doublehotdog.png"
         }
     ],
 
@@ -93,7 +99,19 @@ const products = {
             id: 10,
             name: "Double Burger",
             price: 5500,
-            image: "images/burger.png"
+            image: "images/burger2.png"
+        },
+        {
+            id: 10,
+            name: "Double Burger",
+            price: 5500,
+            image: "images/home-hero.png"
+        },
+        {
+            id: 10,
+            name: "Double Burger",
+            price: 5500,
+            image: "images/burger3.png"
         }
     ],
 
@@ -101,14 +119,50 @@ const products = {
         {
             id: 11,
             name: "Coke",
-            price: 500,
+            price: 600,
             image: "images/coke.png"
         },
         {
             id: 12,
-            name: "Fanta",
-            price: 500,
+            name: "Exotic",
+            price: 2000,
             image: "images/fanta.png"
+        },
+        {
+            id: 12,
+            name: "Hollandia",
+            price: 3000,
+            image: "images/hollandia.png"
+        },
+        {
+            id: 12,
+            name: "Water",
+            price: 500,
+            image: "images/water.png"
+        },
+        {
+            id: 12,
+            name: "schweppes",
+            price: 1000,
+            image: "images/scheppes.png"
+        },
+        {
+            id: 12,
+            name: "Malt",
+            price: 800,
+            image: "images/malt.png"
+        },
+        {
+            id: 12,
+            name: "60cl Sprite",
+            price: 600,
+            image: "images/sprite.png"
+        },
+        {
+            id: 12,
+            name: "Chivita Active",
+            price: 2000,
+            image: "images/drinks.png"
         }
     ]
 };
