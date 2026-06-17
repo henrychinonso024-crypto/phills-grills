@@ -20,6 +20,46 @@ overlay.addEventListener("click", toggleMenu);
 // ================= FEATURED PRODUCTS =================
 
 
+// ====================hero-image========================
+const heroImage =
+document.querySelector("#heroImage");
+
+const heroImages = [
+
+    "images/hero-food.webp",
+
+    "images/indomie.png",
+    "images/hero22.png"
+
+];
+
+let currentImage = 0;
+
+setInterval(() => {
+
+    heroImage.classList.remove(
+        "animate-hero"
+    );
+
+    setTimeout(() => {
+
+        currentImage =
+        (currentImage + 1) %
+        heroImages.length;
+
+        heroImage.src =
+        heroImages[currentImage];
+
+        void heroImage.offsetWidth;
+
+        heroImage.classList.add(
+            "animate-hero"
+        );
+
+    }, 100);
+
+}, 5000);
+
 
 
 
