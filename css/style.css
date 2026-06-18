@@ -1058,7 +1058,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 
   padding: 8px 10px;
   border: 0 solid #e5e7eb;
@@ -1071,8 +1071,9 @@ ul {
   font-size: 13px;
 
   margin: 0;
-  width: auto;
+  width: 100%;
   box-sizing: border-box;
+  white-space: nowrap;
 }
 
 /* WhatsApp Button */
@@ -1124,6 +1125,18 @@ ul {
 .whatsapp-btn:hover {
 
   transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+
+    .cart-btn {
+
+        font-size: 14px;
+
+        padding: 12px;
+
+    }
+
 }
 
 
@@ -5052,6 +5065,7 @@ border-radius: 12px;
 .cta-content {
 
     max-width: 900px;
+    width: 100%;
 
     margin: auto;
 
@@ -5147,13 +5161,14 @@ border-radius: 12px;
 
     .cta-section {
 
-        padding: 70px 25px;
+        padding: 60px 20px;
 
     }
 
     .cta-content h2 {
 
-        font-size: 2.3rem;
+        font-size: 2rem;
+        line-height: 1.2;
 
     }
 
@@ -5189,9 +5204,9 @@ border-radius: 12px;
 
     display: flex;
 
-    justify-content: left;
+    justify-content: center;
 
-    gap: 15px;
+    gap: 10px;
 
     /* margin-top: 40px; */
     margin-bottom: 40px;
