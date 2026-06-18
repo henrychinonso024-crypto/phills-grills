@@ -59,7 +59,7 @@ ul {
 
 .navbar {
 
-  position: relative;
+  /* position: relative; */
   top: 0;
   z-index: 1000;
 
@@ -69,7 +69,7 @@ ul {
 
   padding: 20px 8%;
 
-  background: lavenderblush;
+  background: white;
 
   box-shadow:
     0 2px 20px rgba(0, 0, 0, .05);
@@ -778,7 +778,7 @@ ul {
 
   font-size: 2.8rem;
 
-  color: var(--primary-red);
+  color: #000;
 
   margin-bottom: 10px;
   position: relative;
@@ -2304,7 +2304,7 @@ ul {
 
 .section-titlllle {
   text-align: center;
-  color: var(--primary-red);
+  color: #000;
   font-weight: 600;
   font-style: normal;
   font-size: 1.3rem;
@@ -2640,7 +2640,7 @@ ul {
 
 .stat h3 {
 
-  color: var(--primary-red);
+  color: #000;
   font-size: 2.5rem;
 
   font-weight: 800;
@@ -4530,9 +4530,9 @@ body {
 
   border-radius: 50%;
 
-  background: var(--primary-red);
+  background: white;
 
-  color: white;
+  color: black;
 
   font-size: 20px;
 
@@ -5019,7 +5019,7 @@ body {
 
     background: white;
 
-    color: var(--primary-red);
+    color: lightblue;
 
     padding: 15px 35px;
 
