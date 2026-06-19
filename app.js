@@ -30,7 +30,6 @@ const heroImages = [
 
     "images/indomie.png",
     "images/aiburger.png",
-    "images/chickenai.png"
 
 ];
 
